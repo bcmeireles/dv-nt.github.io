@@ -1,0 +1,50 @@
+
+
+  html {width: 100%; } /* Force 'html' to be viewport width */
+  body {width: 100%; height:80% } /* Overflow the body */
+  
+      
+    h2 { font-family: "Times New Roman", Times, serif; }
+  
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+  
+    body {
+    margin: 0;
+    height: 100%;
+    background: black;
+    }
+
+    .disclaimer {
+    color: white;
+    width: 80%;
+    border: 1px solid green;
+    margin: 20px;
+    font-size: 16px;
+    font-size: 1.75vw;
+    }
+  
+    .randomimage {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    }
+  
+    .randomimage img {
+    display: block;
+    margin: 20px auto;
+    max-height: 800px;
+    max-width: 800px;
+    }
+  
+  
+    input[type="button"] {
+    color: white;
+    background-color: transparent;
+    border: 3px solid green;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 15px;
+    margin: 50px auto 0 auto;
+    cursor: pointer;
+    }
